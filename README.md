@@ -29,7 +29,7 @@ https://anomalydetectionexammonitoring.streamlit.app/
 
 Welcome to the **Anomaly Detection System for Offline Exam Monitoring** project!
 
-IThe Anomaly Detection System for Offline Exam Monitoring is designed to analyze recorded exam videos and detect unusual activities such as cheating behaviors. Using deep learning techniques, particularly Convolutional Neural Networks (CNNs), the system classifies behaviors into predefined categories like copying, cheat passing , Suspicious , Using Copy Cheat, Peeking , using mobile phones, discussing, and normal behavior.
+The Anomaly Detection System for Offline Exam Monitoring is designed to analyze recorded exam videos and detect unusual activities such as cheating behaviors. Using deep learning techniques, particularly Convolutional Neural Networks (CNNs), the system classifies behaviors into predefined categories like copying, cheat passing , Suspicious , Using Copy Cheat, Peeking , using mobile phones, discussing, and normal behavior.
 
 **Why is this important?**
 
