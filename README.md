@@ -1,6 +1,6 @@
 # 🎥 Anomaly Detection System for Offline Exam Monitoring
 
-https://grocergeniusaibasedsupermarketsalesprediction.streamlit.app/
+https://anomalydetectionexammonitoring.streamlit.app/
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
@@ -21,9 +21,7 @@ https://grocergeniusaibasedsupermarketsalesprediction.streamlit.app/
   - [Prerequisites](#prerequisites)
   - [Setup Instructions](#setup-instructions)
   - [Using the Application](#using-the-application)
-- [Contributors](#contributors)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -177,7 +175,7 @@ Ensure you have the following installed:
   pip install tensorflow opencv-python numpy pandas matplotlib
   ```
 
-### Setup Instructions
+### 📝 Setup Instructions
 
 **Follow these steps to get the project up and running:**
 
@@ -209,7 +207,7 @@ Ensure you have the following installed:
    anomaly-detection-system/
    ├── data/
    │   ├── uploaded_videos/
-   │   ├── processed_frames/
+   │   ├── processed_videos/
    ├── models/
    │   ├── anomaly_model.h5
    │   ├── multi_class_anomaly.h5
@@ -239,7 +237,7 @@ Ensure you have the following installed:
 
    - Open your web browser and navigate to `http://localhost:8501`.
 
-### Using the Application
+### ▶️ Using the Application
 
 **Step-by-Step Guide:**
 
@@ -270,7 +268,7 @@ Ensure you have the following installed:
 
 ---
 
-## License
+## 📚 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
