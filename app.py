@@ -31,8 +31,8 @@ symbols = {
 
 # File to store history data
 history_file = "history.json"
-processed_videos_folder = "processed_videos/"
-uploaded_videos_folder = "uploaded_videos/"
+processed_videos_folder = "data/processed_videos/"
+uploaded_videos_folder = "data/uploaded_videos/"
 
 # Create the processed and uploaded videos folders if they don't exist
 if not os.path.exists(processed_videos_folder):
