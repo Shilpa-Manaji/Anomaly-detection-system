@@ -234,15 +234,15 @@ Ensure you have the following installed:
 
    ```bash
    cd codebase
-   python train.py
+   python Model Training/model training.ipynb
    ```
 
    - This script will preprocess the data and train the model.
 6. **Run the Backend**
    ```bash
-   streamlit  flask_app.py
+   python flask_app.py
    ```
-6. **Run the Streamlit App(Front-end code)**
+7. **Run the Streamlit App(Front-end code)**
 
    ```bash
    streamlit run app.py
@@ -250,10 +250,10 @@ Ensure you have the following installed:
    or 
 
    ```bash
-   streamlit  streamlit_app.py
+   streamlit run streamlit_app.py
    ```
 
-7. **Access the Application**
+8. **Access the Application**
 
    - Open your web browser and navigate to `http://localhost:8501`.
 
