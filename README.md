@@ -204,12 +204,24 @@ Ensure you have the following installed:
 
    ```
    anomaly-detection-system/
+   ├── leterature/
+   │   ├──Ahmed Elmetwally_2024.pdf
+   │   ├──Akmalazakia Fatan Derana Marsiano _2019.pdf
+   │   ├── ..
+   ├── Videos/
+   │   ├── 1.mp4
+   │   ├── ..
+   ├── CNN_Dataset/
+   │   ├── cheat_passing/
+   │   ├── Normal/
+   │   ├── ..
    ├── data/
    │   ├── uploaded_videos/
    │   ├── processed_videos/
    ├── Models/
    │   ├── anomaly_model.h5
    │   ├── multi_class_anomaly.h5
+   │   ├── ..
    ├── Model Training/
    │   ├── Dataset_preaparation.ipynb
    │   ├── model training.ipynb
@@ -219,12 +231,15 @@ Ensure you have the following installed:
    ├── anomaly_screenshots/
    │   ├── cctv_20250505103425
    │   ├──processed_20250116225130
+   │   ├── ..
    ├── static/
    │   ├── cctv_video
+   │   ├── ..
    ├── templates/
    │   ├── stream.html
    ├── history.json
    ├── alert.mp3
+   ├── Report.pdf
    ├── requirements.txt
    ├── LICENSE
    ├── README.md
