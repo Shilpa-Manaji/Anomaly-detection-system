@@ -260,11 +260,6 @@ Ensure you have the following installed:
 7. **Run the Streamlit App(Front-end code)**
 
    ```bash
-   streamlit run app.py
-   ```
-   or 
-
-   ```bash
    streamlit run streamlit_app.py
    ```
 
