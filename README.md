@@ -207,13 +207,26 @@ Ensure you have the following installed:
    ├── data/
    │   ├── uploaded_videos/
    │   ├── processed_videos/
-   ├── models/
+   ├── Models/
    │   ├── anomaly_model.h5
    │   ├── multi_class_anomaly.h5
-   ├── training/
-   │   ├── train.py
+   ├── Model Training/
+   │   ├── Dataset_preaparation.ipynb
+   │   ├── model training.ipynb
    ├── app.py
+   ├── flask_app.py                   #Backend Code
+   ├── streamlit_app.py                #Front end code
+   ├── anomaly_screenshots/
+   │   ├── cctv_20250505103425
+   │   ├──processed_20250116225130
+   ├── static/
+   │   ├── cctv_video
+   ├── templates/
+   │   ├── stream.html
+   ├── history.json
+   ├── alert.mp3
    ├── requirements.txt
+   ├── LICENSE
    ├── README.md
    ```
 
@@ -225,11 +238,19 @@ Ensure you have the following installed:
    ```
 
    - This script will preprocess the data and train the model.
-
-6. **Run the Streamlit App**
+6. **Run the Backend**
+   ```bash
+   streamlit  flask_app.py
+   ```
+6. **Run the Streamlit App(Front-end code)**
 
    ```bash
    streamlit run app.py
+   ```
+   or 
+
+   ```bash
+   streamlit  streamlit_app.py
    ```
 
 7. **Access the Application**
