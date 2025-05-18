@@ -253,15 +253,15 @@ Ensure you have the following installed:
    ```
 
    - This script will preprocess the data and train the model.
-6. **Run the Backend**
+6. **Run the Backend Code**
    ```bash
    python flask_app.py
    ```
-7. **Run the Streamlit App(Front-end code)**
+   7. **Run the Streamlit App(Front-end Code)**
 
-   ```bash
-   streamlit run streamlit_app.py
-   ```
+      ```bash
+      streamlit run streamlit_app.py
+      ```
 
 8. **Access the Application**
 
