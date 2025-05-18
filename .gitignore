@@ -14,11 +14,11 @@ multi_class_anomaly_model.h5
 .idea/
 history.json
 .ipynb_checkpoints/
+processed_videos/
 =======
 >>>>>>> e1b40cbaac7bdcb3a410745a5fbf0c1a6c42e753
 build/
 develop-eggs/
-processed_videos/
 dist/
 downloads/
 eggs/
