@@ -214,8 +214,8 @@ Ensure you have the following installed:
    │   ├── Dataset_preaparation.ipynb
    │   ├── model training.ipynb
    ├── app.py
-   ├── flask_app.py                   #Backend Code
-   ├── streamlit_app.py                #Front end code
+   ├── flask_app.py                   #Back-end Code
+   ├── streamlit_app.py               #Front-end Code
    ├── anomaly_screenshots/
    │   ├── cctv_20250505103425
    │   ├──processed_20250116225130
@@ -233,8 +233,8 @@ Ensure you have the following installed:
 5. **Train the Model**
 
    ```bash
-   cd codebase
-   python Model Training/model training.ipynb
+   cd  Model Training
+   python model training.ipynb
    ```
 
    - This script will preprocess the data and train the model.
