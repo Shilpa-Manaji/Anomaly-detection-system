@@ -74,7 +74,6 @@ Our project follows a structured workflow to ensure clarity and efficiency:
 
 2. **Preprocessing & Augmentation** ⚙️
 
-   - Convert images to grayscale.
    - Resize images for CNN input.
    - Remove duplicate frames.
 
